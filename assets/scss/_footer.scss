@@ -1,0 +1,69 @@
+/*footer*/
+
+.footer{
+   @include section-padding (50px, 406px, 50px);
+   background: $bgc-blue;
+   &-name{
+      font-weight: 500;
+      font-size: 21px;
+      color: $color-text-white;
+      margin-bottom: 20px;
+   }
+   .copyright{
+      font-size: 13px;
+      line-height: 24px;
+      color: $color-text-white;
+   }
+}
+/*adaptive breackpoints*/
+@include desktop{
+   .wraper {
+      width: 100%;
+      margin: 0 auto;
+      .footer{
+         padding-left: 150px;
+      }
+    }
+}
+@include laptop{
+   .wraper {
+      width: 100%;
+      margin: 0 auto;
+      .footer{
+         text-align: center;
+         padding-left: 0;
+      }
+    }
+}
+@include tablet{
+   .wraper {
+      width: 100%;
+      margin: 0 auto;
+      .footer{
+         padding: 20px;
+         text-align: center;
+         &-name{
+            font-size: 14px;
+         }
+         .copyright{
+            font-size: 8px;
+         }
+      }
+    }
+}
+@include mobile{
+   .wraper {
+      width: 100%;
+      margin: 0 auto;
+      .footer{
+         text-align: center;
+         &-name{
+            font-size: 12px;
+            margin-bottom: 5px;
+         }
+         .copyright{
+            font-size: 8px;
+         }
+      }
+    }
+}

@@ -1,0 +1,36 @@
+/*about-section*/
+
+.about-section{
+   background-color: $color-text-white;
+   @include section-padding (112px, 0, 100px);
+
+   .about{
+      width: 540px;
+      margin: 0 auto;
+      &-title{
+         @extend %style-title;
+      }
+      &-text{
+         @extend %style-text;
+      }
+   }
+}
+
+/*adaptive breackpoints*/
+
+@include mobile{
+   .wraper {
+      width: 100%;
+      margin: 0 auto;
+      .about-section{
+      @include section-padding (40px, 0, 60px);
+      .about{
+         width: 95%;
+         &-title{
+            font-size: 24px;
+         }
+      }
+      }
+    }
+
+}

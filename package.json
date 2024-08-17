@@ -1,0 +1,25 @@
+{
+  "name": "lessons33",
+  "version": "1.0.0",
+  "description": "first project gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "browser-sync": "^3.0.2",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^7.0.5",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.77.8",
+    "sort-css-media-queries": "^2.3.0"
+  }
+}

@@ -1,0 +1,27 @@
+// mixins section-padding
+@mixin section-padding($pt, $pl, $pb){
+   padding-top: $pt;
+   padding-left: $pl;
+   padding-bottom: $pb;
+}
+
+@mixin desktop(){
+   @media (max-width:$breackpoint-xxl){
+      @content;
+   }
+}
+@mixin laptop(){
+   @media (max-width:$breackpoint-xl){
+      @content;
+   }
+}
+@mixin tablet(){
+   @media (max-width:$breackpoint-md){
+      @content;
+   }
+}
+@mixin mobile(){
+   @media (max-width:$breackpoint-sm){
+      @content;
+   }
+}

@@ -1,0 +1,33 @@
+// scss variables
+$bgc-blue:#34547a;
+$color-text-white:#fff;
+$bgc-gray:#eeeff1;
+
+// media breakpoint
+$breackpoint-xxl: 1320px;
+$breackpoint-xl: 983px;
+$breackpoint-md: 768px;
+$breackpoint-sm: 677px;
+
+
+//Placeholder class
+%style-title{
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-size: 32px;
+   text-align: center;
+   color: #000;
+   margin-bottom: 50px;
+}
+%style-text{
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   color: #727272;
+}
+%wraper-center{
+   width: 100%;
+   margin: 0 auto;
+}

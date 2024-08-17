@@ -1,0 +1,26 @@
+*{
+   box-sizing: border-box;
+}
+ul, h1, h2, p{
+   margin: 0;
+   padding: 0;
+   margin-block-start: 0;
+   margin-block-end: 0;
+}
+body{
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-size: 16px;   
+   margin: 0;
+}
+.wraper{
+   max-width: 1920px;
+   margin: 0 auto;
+}
+@import 'variables';
+@import 'mixins';
+@import 'main';
+@import 'about';
+@import 'number';
+@import 'video';
+@import 'footer';
